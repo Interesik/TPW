@@ -1,0 +1,12 @@
+E:\Współbierzne\MarblesKK-Model\bin\Debug\net6.0\MarblesKK-Model.deps.json
+E:\Współbierzne\MarblesKK-Model\bin\Debug\net6.0\MarblesKK-Model.dll
+E:\Współbierzne\MarblesKK-Model\bin\Debug\net6.0\MarblesKK-Model.pdb
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\MarblesKK-Model.csproj.AssemblyReference.cache
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\MarblesKK-Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\MarblesKK-Model.AssemblyInfoInputs.cache
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\MarblesKK-Model.AssemblyInfo.cs
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\MarblesKK-Model.csproj.CoreCompileInputs.cache
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\MarblesKK-Model.dll
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\refint\MarblesKK-Model.dll
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\MarblesKK-Model.pdb
+E:\Współbierzne\MarblesKK-Model\obj\Debug\net6.0\ref\MarblesKK-Model.dll
