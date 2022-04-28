@@ -3,42 +3,38 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MarblesKK" 
-        xmlns:mw="clr-namespace:MarblesKK_ViewModel;assembly=MarblesKK-ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:mw="clr-namespace:MarblesKKViewModel;assembly=MarblesKKViewModel"
+        Title="MainWindow" Height="800" Width="1000" ResizeMode="NoResize">
     <Window.DataContext>
-        <mw:MarblesViewModel/>
+        <mw:MViewModel/>
     </Window.DataContext>
     <Grid Background="#FF71FF08">
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="VisualStateGroup">
-                <VisualState x:Name="VisualState"/>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
-        <Button Content="Rozpocznij" HorizontalAlignment="Left" Margin="658,354,0,0" VerticalAlignment="Top" Height="50" Width="105"/>
-        <TextBox Name="TextBoxMain" Text="{Binding Path=numberOfMurbles, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="20,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" Width="223"/>
-        <Ellipse Name="Elipse1" Width= "50" Height="50" Fill="Blue" Canvas.Left="375" Canvas.Top="125" Opacity="1"/>
-        
-        <ItemsControl ItemsSource="{Binding Path=CMarbles, Mode=TwoWay}">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <Canvas Name ="Canvas_Main" Margin="0,0,0,100" Background="White"/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-                <ItemsControl.ItemTemplate>
+        <Button Command="{Binding Start}"  Content="Rozpocznij" HorizontalAlignment="Left" Margin="800,650,0,0" VerticalAlignment="Top" Height="50" Width="105"/>
+        <Button Command="{Binding Restart}"  Content="Resetuj" HorizontalAlignment="Center" Margin="150,650,0,0" VerticalAlignment="Top" Height="50" Width="104"/>
+        <Button Command="{Binding Stop}"  Content="Stop" HorizontalAlignment="Center" Margin="-400,650,0,0" VerticalAlignment="Top" Height="50" Width="104"/>
+        <TextBox Name="TextBoxMain" Text="{Binding Path=AmountOfMurbles, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="100,670,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" Width="108" Height="18" RenderTransformOrigin="0.546,0.28"/>
+
+        <ItemsControl ItemsSource="{Binding Path=marbles}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas Name="Canvas_Main" Width="640" Height="480"  Margin="0,0,0,100" Background="Yellow"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemContainerStyle>
+                <Style TargetType="ContentPresenter">
+                    <Setter Property="Canvas.Left" Value="{Binding Posx}"/>
+                    <Setter Property="Canvas.Top" Value="{Binding Posy}"/>
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+            <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Ellipse Width="50" Height="50" Fill="Red">
-                        <Ellipse.RenderTransform>
-                            <TranslateTransform X="{Binding X, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Y="{Binding Y,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}"/>
-                        </Ellipse.RenderTransform>
-                    </Ellipse>
+                    <Ellipse Width="{Binding Radius}" Height="{Binding Radius}" Fill="Red" />
                 </DataTemplate>
-              </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        <TextBlock Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Text="Liczba kul:">
-            <Run Text="{Binding Path=CMarbles.Count,Mode=OneWay}"/>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <TextBlock Margin="100,693,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Text="Liczba kul:">
+            <Run Text="{Binding Path=marbles.Count,Mode=OneWay}"/>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="13" Margin="20,354,0,0" TextWrapping="Wrap" Text="{Binding Path=numberOfMurbles,Mode=TwoWay}" VerticalAlignment="Top" Width="223"/>
     </Grid>
 </Window>

@@ -1,14 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
-    <UseWPF>True</UseWPF>
+    <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MarblesKK_ViewModel\MarblesKKViewModel.csproj" />
+    <ProjectReference Include="..\MarblesKKModel\MarblesKKModel.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Współbierzne\\MarblesKK\\MarblesKK.csproj": {}
+    "E:\\Współbierzne\\Etap1\\MarblesKK\\MarblesKK.csproj": {}
   },
   "projects": {
-    "E:\\Współbierzne\\MarblesKK-Model\\MarblesKK-Model.csproj": {
+    "E:\\Współbierzne\\Etap1\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Współbierzne\\MarblesKK-Model\\MarblesKK-Model.csproj",
-        "projectName": "MarblesKK-Model",
-        "projectPath": "E:\\Współbierzne\\MarblesKK-Model\\MarblesKK-Model.csproj",
+        "projectUniqueName": "E:\\Współbierzne\\Etap1\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "E:\\Współbierzne\\Etap1\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Współbierzne\\MarblesKK-Model\\obj\\",
+        "outputPath": "E:\\Współbierzne\\Etap1\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "E:\\Współbierzne\\MarblesKK-ViewModel\\MarblesKK-ViewModel.csproj": {
+    "E:\\Współbierzne\\Etap1\\LogicMarbles\\LogicMarbles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Współbierzne\\MarblesKK-ViewModel\\MarblesKK-ViewModel.csproj",
-        "projectName": "MarblesKK-ViewModel",
-        "projectPath": "E:\\Współbierzne\\MarblesKK-ViewModel\\MarblesKK-ViewModel.csproj",
+        "projectUniqueName": "E:\\Współbierzne\\Etap1\\LogicMarbles\\LogicMarbles.csproj",
+        "projectName": "LogicMarbles",
+        "projectPath": "E:\\Współbierzne\\Etap1\\LogicMarbles\\LogicMarbles.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Współbierzne\\MarblesKK-ViewModel\\obj\\",
+        "outputPath": "E:\\Współbierzne\\Etap1\\LogicMarbles\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Współbierzne\\MarblesKK-Model\\MarblesKK-Model.csproj": {
-                "projectPath": "E:\\Współbierzne\\MarblesKK-Model\\MarblesKK-Model.csproj"
+              "E:\\Współbierzne\\Etap1\\Data\\Data.csproj": {
+                "projectPath": "E:\\Współbierzne\\Etap1\\Data\\Data.csproj"
               }
             }
           }
@@ -105,12 +105,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "MvvmLightLibs": {
-              "target": "Package",
-              "version": "[5.4.1.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -130,14 +124,76 @@
         }
       }
     },
-    "E:\\Współbierzne\\MarblesKK\\MarblesKK.csproj": {
+    "E:\\Współbierzne\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Współbierzne\\MarblesKK\\MarblesKK.csproj",
-        "projectName": "MarblesKK",
-        "projectPath": "E:\\Współbierzne\\MarblesKK\\MarblesKK.csproj",
+        "projectUniqueName": "E:\\Współbierzne\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj",
+        "projectName": "MarblesKKModel",
+        "projectPath": "E:\\Współbierzne\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Współbierzne\\MarblesKK\\obj\\",
+        "outputPath": "E:\\Współbierzne\\Etap1\\MarblesKKModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Współbierzne\\Etap1\\LogicMarbles\\LogicMarbles.csproj": {
+                "projectPath": "E:\\Współbierzne\\Etap1\\LogicMarbles\\LogicMarbles.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Współbierzne\\Etap1\\MarblesKK\\MarblesKK.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Współbierzne\\Etap1\\MarblesKK\\MarblesKK.csproj",
+        "projectName": "MarblesKK",
+        "projectPath": "E:\\Współbierzne\\Etap1\\MarblesKK\\MarblesKK.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Współbierzne\\Etap1\\MarblesKK\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -158,8 +214,73 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "E:\\Współbierzne\\MarblesKK-ViewModel\\MarblesKK-ViewModel.csproj": {
-                "projectPath": "E:\\Współbierzne\\MarblesKK-ViewModel\\MarblesKK-ViewModel.csproj"
+              "E:\\Współbierzne\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj": {
+                "projectPath": "E:\\Współbierzne\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Współbierzne\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Współbierzne\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj",
+        "projectName": "MarblesKKViewModel",
+        "projectPath": "E:\\Współbierzne\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\Współbierzne\\Etap1\\MarblesKK_ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "E:\\Współbierzne\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj": {
+                "projectPath": "E:\\Współbierzne\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj"
               }
             }
           }

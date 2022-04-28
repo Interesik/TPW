@@ -8,44 +8,39 @@
     ".NETCoreApp,Version=v6.0": {
       "MarblesKK/1.0.0": {
         "dependencies": {
-          "MarblesKK-ViewModel": "1.0.0"
+          "MarblesKKViewModel": "1.0.0"
         },
         "runtime": {
           "MarblesKK.dll": {}
         }
       },
-      "MvvmLightLibs/5.4.1.1": {
+      "Data/1.0.0": {
         "runtime": {
-          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {
-            "assemblyVersion": "5.4.1.0",
-            "fileVersion": "5.4.1.0"
-          },
-          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {
-            "assemblyVersion": "5.4.1.0",
-            "fileVersion": "5.4.1.0"
-          },
-          "lib/net45/GalaSoft.MvvmLight.dll": {
-            "assemblyVersion": "5.4.1.0",
-            "fileVersion": "5.4.1.0"
-          },
-          "lib/net45/System.Windows.Interactivity.dll": {
-            "assemblyVersion": "4.5.0.0",
-            "fileVersion": "3.0.40218.0"
-          }
+          "Data.dll": {}
         }
       },
-      "MarblesKK-Model/1.0.0": {
-        "runtime": {
-          "MarblesKK-Model.dll": {}
-        }
-      },
-      "MarblesKK-ViewModel/1.0.0": {
+      "LogicMarbles/1.0.0": {
         "dependencies": {
-          "MarblesKK-Model": "1.0.0",
-          "MvvmLightLibs": "5.4.1.1"
+          "Data": "1.0.0"
         },
         "runtime": {
-          "MarblesKK-ViewModel.dll": {}
+          "LogicMarbles.dll": {}
+        }
+      },
+      "MarblesKKModel/1.0.0": {
+        "dependencies": {
+          "LogicMarbles": "1.0.0"
+        },
+        "runtime": {
+          "MarblesKKModel.dll": {}
+        }
+      },
+      "MarblesKKViewModel/1.0.0": {
+        "dependencies": {
+          "MarblesKKModel": "1.0.0"
+        },
+        "runtime": {
+          "MarblesKKViewModel.dll": {}
         }
       }
     }
@@ -56,19 +51,22 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MvvmLightLibs/5.4.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xYpVzOYnIz/M6T0pdc3w5t0vrt2ZKspSS+CZjQ+pZE+5yHv9qXSWkncHJXb6D7Egstalso4ivnIUkA1xEClViw==",
-      "path": "mvvmlightlibs/5.4.1.1",
-      "hashPath": "mvvmlightlibs.5.4.1.1.nupkg.sha512"
-    },
-    "MarblesKK-Model/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "MarblesKK-ViewModel/1.0.0": {
+    "LogicMarbles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MarblesKKModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MarblesKKViewModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
