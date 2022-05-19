@@ -1,4 +1,4 @@
-﻿using Logic;
+﻿using LogicMarbles;
 using MarblesKKModel;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
-using Logic;
+using LogicMarbles;
+using Data;
 
 namespace MarblesKKModel
 {
@@ -45,8 +46,7 @@ namespace MarblesKKModel
             {
                 Marbles.Clear();
                 LLogic.createCanvas(width, height, amount, marbleRadius);
-                LLogic.Move();
-                foreach (Marble marble in LLogic.getCanvas().GetMarbles())
+                foreach (MarbleLogic marble in LLogic.GetMarblesLogic())
                 {
                     Marbles.Add(new MarbleModel(marble));
                 }

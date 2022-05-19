@@ -1,4 +1,4 @@
-﻿using Logic;
+﻿using LogicMarbles;
 using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -12,11 +12,11 @@ namespace MarblesKKModel
         private int posx;
         private int posy;
         public event PropertyChangedEventHandler PropertyChanged;
-        public MarbleModel(Marble marble)
+        public MarbleModel(MarbleLogic marble)
         {
             this.Radius = marble.Radius;
-            this.Posx = marble.Posx;
-            this.Posy = marble.Posy;
+            this.Posx = marble.Posx - (Radius / 2);
+            this.Posy = marble.Posy - (Radius / 2);
             marble.PropertyChanged += onPropertyChanged;
         }
         protected virtual void RaisePropertyChanged([CallerMemberName] string propertyName = null)
@@ -65,7 +65,7 @@ namespace MarblesKKModel
 
         private void onPropertyChanged(object sender, PropertyChangedEventArgs eve)
         {
-            Marble m = (Marble) sender;
+            MarbleLogic m = (MarbleLogic) sender;
 
             switch(eve.PropertyName)
             {
@@ -74,6 +74,9 @@ namespace MarblesKKModel
                     break;
                 case "Posy":
                     Posy = m.Posy;
+                    break;
+                case "Radius":
+                    Radius = m.Radius;
                     break;
             }
         }

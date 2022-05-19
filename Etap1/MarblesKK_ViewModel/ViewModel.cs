@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Collections.ObjectModel;
 using MarblesKKModel;
 using System.Runtime.CompilerServices;
+using System;
 
 namespace MarblesKKViewModel
 {
@@ -26,7 +27,7 @@ namespace MarblesKKViewModel
             Start = new RelayCommand(() => start());
             Stop = new RelayCommand(() => stop());
             Restart = new RelayCommand(() => restart());
-            this.Radius = 20;
+            this.Radius = 30;
         }
         public int Radius
         {
