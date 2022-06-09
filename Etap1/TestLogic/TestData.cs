@@ -23,7 +23,7 @@ namespace TestData
         [TestMethod]
         public void TestMarbles()
         {
-            Marble marble = new Marble(3, 10, 10);
+            Marble marble = new Marble(3, 10, 10, 0);
             Assert.AreEqual(marble.Radius,3);
             Assert.AreEqual(marble.Posy,10);
             Assert.AreEqual(marble.Posx,10);
