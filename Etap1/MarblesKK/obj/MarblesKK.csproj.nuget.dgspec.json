@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK\\MarblesKK.csproj": {}
+    "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK\\MarblesKK.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\Data\\Data.csproj": {
+    "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\Data\\obj\\",
+        "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,24 +58,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\LogicMarbles\\LogicMarbles.csproj": {
+    "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\LogicMarbles\\LogicMarbles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\LogicMarbles\\LogicMarbles.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\LogicMarbles\\LogicMarbles.csproj",
         "projectName": "LogicMarbles",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\LogicMarbles\\LogicMarbles.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\LogicMarbles\\obj\\",
+        "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\LogicMarbles\\LogicMarbles.csproj",
+        "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\LogicMarbles\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\Data\\Data.csproj"
+              "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\Data\\Data.csproj"
               }
             }
           }
@@ -120,24 +120,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj": {
+    "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj",
         "projectName": "MarblesKKModel",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKKModel\\obj\\",
+        "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj",
+        "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKKModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -152,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\LogicMarbles\\LogicMarbles.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\LogicMarbles\\LogicMarbles.csproj"
+              "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\LogicMarbles\\LogicMarbles.csproj": {
+                "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\LogicMarbles\\LogicMarbles.csproj"
               }
             }
           }
@@ -182,24 +182,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK\\MarblesKK.csproj": {
+    "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK\\MarblesKK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK\\MarblesKK.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK\\MarblesKK.csproj",
         "projectName": "MarblesKK",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK\\MarblesKK.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK\\obj\\",
+        "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK\\MarblesKK.csproj",
+        "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -214,8 +214,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj"
+              "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj": {
+                "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj"
               }
             }
           }
@@ -247,24 +247,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj": {
+    "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj",
+        "projectUniqueName": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj",
         "projectName": "MarblesKKViewModel",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK_ViewModel\\obj\\",
+        "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj",
+        "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK_ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -279,8 +279,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj"
+              "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj": {
+                "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKKModel\\MarblesKKModel.csproj"
               }
             }
           }
@@ -312,7 +312,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

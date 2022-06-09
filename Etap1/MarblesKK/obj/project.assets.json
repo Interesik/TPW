@@ -84,23 +84,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Karol\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK\\MarblesKK.csproj",
+      "projectUniqueName": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK\\MarblesKK.csproj",
       "projectName": "MarblesKK",
-      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK\\MarblesKK.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK\\obj\\",
+      "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK\\MarblesKK.csproj",
+      "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -115,8 +115,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Source\\Repos\\TPW\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj"
+            "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj": {
+              "projectPath": "C:\\Users\\Karol\\source\\repos\\TPW2\\Etap1\\MarblesKK_ViewModel\\MarblesKKViewModel.csproj"
             }
           }
         }
@@ -148,7 +148,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

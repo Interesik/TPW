@@ -60,7 +60,7 @@ namespace Data
                 int x = random.Next(marbleRadius, this.width - marbleRadius);
                 int y = random.Next(marbleRadius, this.height - marbleRadius);
 
-                lmarbles.Add(new Marble(marbleRadius, x, y));
+                lmarbles.Add(new Marble(marbleRadius, x, y, i));
             }
         }
     } 

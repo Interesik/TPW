@@ -1,8 +1,10 @@
 ﻿using Data;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading;
 
 namespace LogicMarbles
@@ -66,6 +68,36 @@ namespace LogicMarbles
                     this.logMarbles.Add(new MarbleLogic(m));
                 }
                 this.On_Off = true;
+                var timer = new Stopwatch();
+                Thread tim = new Thread(() =>
+                {
+                    string path = @"D:\MarbleLog.txt";
+                    timer.Start();
+                    if (File.Exists(path))
+                    {
+                        File.Delete(path);
+                    }
+
+                    while (On_Off)
+                    {
+                        if (timer.ElapsedMilliseconds >= 5)
+                        {
+                            timer.Restart();
+                            int i = 0;
+                            
+                            string data = DateTime.Now.ToString("HH:mm:ss:ffff");
+                            using (StreamWriter outputFile = new StreamWriter(path, append: true))
+                            {
+                                foreach (Marble m in DataApi.getMarbles())
+                                {
+                                    outputFile.WriteLine(JsonSerializer.Serialize(m) + " : " +data);
+                                    i++;
+                                }
+                            }
+                        }
+                    }
+                });
+                tim.Start();
                 foreach (MarbleLogic ML in this.logMarbles)
                 {
                     Task t = new Task(() =>

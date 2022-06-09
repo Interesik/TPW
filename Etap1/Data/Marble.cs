@@ -6,14 +6,16 @@ namespace Data
 {
     public class Marble : INotifyPropertyChanged
     {
+        private int id;
         private int radius;
-        private int posx; // zamienić wszystko na double i jakoś to wysyłać
+        private int posx; 
         private int posy;
         private int speed_X;
         private int speed_Y;
 
-        public Marble(int Radius, int X, int Y)
+        public Marble(int Radius, int X, int Y, int ID)
         {
+            id = ID;
             radius = Radius;
             posx = X;
             posy = Y;
@@ -80,6 +82,19 @@ namespace Data
                 RaisePropertyChanged(nameof(Speed_y));
             }
         }
+        public int ID
+        {
+            get
+            {
+                return id;
+            }
+            set 
+            { 
+                id = value;
+                RaisePropertyChanged(nameof(ID));
+            }
+        }
+        
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected virtual void RaisePropertyChanged([CallerMemberName] string propertyName = null)
